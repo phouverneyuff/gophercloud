@@ -123,6 +123,10 @@ type CreateOpts struct {
 	// specified IP prefix as the source IP address of the IP packet.
 	RemoteIPPrefix string `json:"remote_ip_prefix,omitempty"`
 
+	// TenantID is the UUID of the project who owns the Group.
+	// Only administrative users can specify a tenant UUID other than their own.
+	TenantID string `json:"tenant_id,omitempty"`
+
 	// TenantID is the UUID of the project who owns the Rule.
 	// Only administrative users can specify a project UUID other than their own.
 	ProjectID string `json:"project_id,omitempty"`
