@@ -1,4 +1,4 @@
-module github.com/gophercloud/gophercloud
+module github.com/phouverneyuff/gophercloud
 
 require (
 	golang.org/x/crypto v0.0.0-20190211182817-74369b46fc67
