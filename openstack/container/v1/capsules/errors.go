@@ -3,7 +3,7 @@ package capsules
 import (
 	"fmt"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/phouverneyuff/gophercloud"
 )
 
 type ErrInvalidDataFormat struct {

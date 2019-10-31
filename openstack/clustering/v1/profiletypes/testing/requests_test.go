@@ -3,11 +3,11 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/profiletypes"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/phouverneyuff/gophercloud/acceptance/tools"
+	"github.com/phouverneyuff/gophercloud/openstack/clustering/v1/profiletypes"
+	"github.com/phouverneyuff/gophercloud/pagination"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
+	fake "github.com/phouverneyuff/gophercloud/testhelper/client"
 )
 
 func TestListProfileTypes(t *testing.T) {

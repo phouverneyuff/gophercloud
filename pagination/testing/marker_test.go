@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/pagination"
-	"github.com/gophercloud/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud/pagination"
+	"github.com/phouverneyuff/gophercloud/testhelper"
 )
 
 // MarkerPager sample and test cases.

@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/quotas"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/phouverneyuff/gophercloud/openstack/containerinfra/v1/quotas"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
+	fake "github.com/phouverneyuff/gophercloud/testhelper/client"
 )
 
 func TestCreateQuota(t *testing.T) {

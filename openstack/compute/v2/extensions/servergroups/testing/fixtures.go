@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/servergroups"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/phouverneyuff/gophercloud/openstack/compute/v2/extensions/servergroups"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud/testhelper/client"
 )
 
 // ListOutput is a sample response to a List call.

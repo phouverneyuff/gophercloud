@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/pagination"
 )
 
 // FloatingIP represents a floating IP resource. A floating IP is an external

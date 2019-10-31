@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/pagination"
 )
 
 type commonResult struct {

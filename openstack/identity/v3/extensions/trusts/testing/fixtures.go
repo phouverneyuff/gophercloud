@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
-	"github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/phouverneyuff/gophercloud/openstack/identity/v3/tokens"
+	"github.com/phouverneyuff/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud/testhelper/client"
 )
 
 const CreateRequest = `

@@ -1,6 +1,6 @@
 package nodes
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/phouverneyuff/gophercloud"
 
 var apiVersion = "v1"
 var apiName = "nodes"

@@ -9,10 +9,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack"
-	baremetalNoAuth "github.com/gophercloud/gophercloud/openstack/baremetal/noauth"
-	blockstorageNoAuth "github.com/gophercloud/gophercloud/openstack/blockstorage/noauth"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/openstack"
+	baremetalNoAuth "github.com/phouverneyuff/gophercloud/openstack/baremetal/noauth"
+	blockstorageNoAuth "github.com/phouverneyuff/gophercloud/openstack/blockstorage/noauth"
 )
 
 // AcceptanceTestChoices contains image and flavor selections for use by the acceptance tests.
@@ -88,7 +88,7 @@ func AcceptanceTestChoicesFromEnv() (*AcceptanceTestChoices, error) {
 		missing = append(missing, "OS_EXTGW_ID")
 	}
 
-	/* // Temporarily disabled, see https://github.com/gophercloud/gophercloud/issues/1345
+	/* // Temporarily disabled, see https://github.com/phouverneyuff/gophercloud/issues/1345
 	if networkID == "" {
 		missing = append(missing, "OS_NETWORK_ID")
 	}

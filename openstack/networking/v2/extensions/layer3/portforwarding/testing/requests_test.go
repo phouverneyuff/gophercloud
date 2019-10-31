@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	fake "github.com/gophercloud/gophercloud/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/portforwarding"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	fake "github.com/phouverneyuff/gophercloud/openstack/networking/v2/common"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/layer3/portforwarding"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
 )
 
 func TestCreate(t *testing.T) {

@@ -5,12 +5,12 @@ package v3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/credentials"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud/acceptance/clients"
+	"github.com/phouverneyuff/gophercloud/acceptance/tools"
+	"github.com/phouverneyuff/gophercloud/openstack"
+	"github.com/phouverneyuff/gophercloud/openstack/identity/v3/credentials"
+	"github.com/phouverneyuff/gophercloud/openstack/identity/v3/tokens"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
 )
 
 func TestCredentialsCRUD(t *testing.T) {

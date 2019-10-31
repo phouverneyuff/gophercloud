@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/listeners"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/pools"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/openstack/loadbalancer/v2/listeners"
+	"github.com/phouverneyuff/gophercloud/openstack/loadbalancer/v2/pools"
+	"github.com/phouverneyuff/gophercloud/pagination"
 )
 
 // LoadBalancer is the primary load balancing configuration object that

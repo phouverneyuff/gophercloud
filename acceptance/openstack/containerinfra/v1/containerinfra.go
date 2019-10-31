@@ -5,14 +5,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	idv3 "github.com/gophercloud/gophercloud/acceptance/openstack/identity/v3"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/clusters"
-	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/clustertemplates"
-	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/quotas"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/acceptance/clients"
+	idv3 "github.com/phouverneyuff/gophercloud/acceptance/openstack/identity/v3"
+	"github.com/phouverneyuff/gophercloud/acceptance/tools"
+	"github.com/phouverneyuff/gophercloud/openstack/containerinfra/v1/clusters"
+	"github.com/phouverneyuff/gophercloud/openstack/containerinfra/v1/clustertemplates"
+	"github.com/phouverneyuff/gophercloud/openstack/containerinfra/v1/quotas"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
 )
 
 // CreateClusterTemplate will create a random cluster tempalte. An error will be returned if the

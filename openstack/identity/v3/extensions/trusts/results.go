@@ -1,6 +1,6 @@
 package trusts
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/phouverneyuff/gophercloud"
 
 type trustResult struct {
 	gophercloud.Result

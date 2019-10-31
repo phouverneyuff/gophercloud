@@ -5,15 +5,15 @@ package lbaas_v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas_v2/l7policies"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud/acceptance/clients"
+	networking "github.com/phouverneyuff/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/phouverneyuff/gophercloud/acceptance/tools"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/lbaas_v2/l7policies"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
 )
 
 func TestLoadbalancersList(t *testing.T) {

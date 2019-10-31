@@ -1,7 +1,7 @@
 package portforwarding
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/phouverneyuff/gophercloud"
 )
 
 type PortForwarding struct {

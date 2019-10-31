@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/internal"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/internal"
+	"github.com/phouverneyuff/gophercloud/pagination"
 )
 
 // Image represents an image found in the OpenStack Image service.

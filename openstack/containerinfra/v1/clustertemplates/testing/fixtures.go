@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/clustertemplates"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/openstack/containerinfra/v1/clustertemplates"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
+	fake "github.com/phouverneyuff/gophercloud/testhelper/client"
 )
 
 const ClusterTemplateResponse = `

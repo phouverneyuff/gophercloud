@@ -3,14 +3,14 @@ package extensions
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/external"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/security/groups"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/security/rules"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/acceptance/tools"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/external"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/security/groups"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/extensions/security/rules"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/networks"
+	"github.com/phouverneyuff/gophercloud/openstack/networking/v2/ports"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
 )
 
 // CreateExternalNetwork will create an external network. An error will be

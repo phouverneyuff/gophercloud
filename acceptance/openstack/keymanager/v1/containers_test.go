@@ -5,11 +5,11 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/keymanager/v1/containers"
-	"github.com/gophercloud/gophercloud/openstack/keymanager/v1/secrets"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud/acceptance/clients"
+	"github.com/phouverneyuff/gophercloud/acceptance/tools"
+	"github.com/phouverneyuff/gophercloud/openstack/keymanager/v1/containers"
+	"github.com/phouverneyuff/gophercloud/openstack/keymanager/v1/secrets"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
 )
 
 func TestGenericContainersCRUD(t *testing.T) {

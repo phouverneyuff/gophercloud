@@ -1,10 +1,10 @@
 package listeners
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/l7policies"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/pools"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/phouverneyuff/gophercloud"
+	"github.com/phouverneyuff/gophercloud/openstack/loadbalancer/v2/l7policies"
+	"github.com/phouverneyuff/gophercloud/openstack/loadbalancer/v2/pools"
+	"github.com/phouverneyuff/gophercloud/pagination"
 )
 
 type LoadBalancerID struct {

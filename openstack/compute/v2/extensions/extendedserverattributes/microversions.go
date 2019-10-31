@@ -1,7 +1,7 @@
 package extendedserverattributes
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/phouverneyuff/gophercloud"
 )
 
 // ExtractReservationID will extract the reservation_id attribute.

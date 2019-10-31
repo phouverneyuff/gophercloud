@@ -1,6 +1,6 @@
 package rescueunrescue
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/phouverneyuff/gophercloud"
 
 // RescueOptsBuilder is an interface that allows extensions to override the
 // default structure of a Rescue request.

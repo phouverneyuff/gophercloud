@@ -3,7 +3,7 @@ package messages
 import (
 	"net/url"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/phouverneyuff/gophercloud"
 )
 
 const (

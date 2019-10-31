@@ -1,6 +1,6 @@
 package portforwarding
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/phouverneyuff/gophercloud"
 
 // CreateOpts contains all the values needed to create a new port forwarding
 // resource. All attributes are required.

@@ -5,12 +5,12 @@ package v3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/groups"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/projects"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/users"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/phouverneyuff/gophercloud/acceptance/clients"
+	"github.com/phouverneyuff/gophercloud/acceptance/tools"
+	"github.com/phouverneyuff/gophercloud/openstack/identity/v3/groups"
+	"github.com/phouverneyuff/gophercloud/openstack/identity/v3/projects"
+	"github.com/phouverneyuff/gophercloud/openstack/identity/v3/users"
+	th "github.com/phouverneyuff/gophercloud/testhelper"
 )
 
 func TestUsersList(t *testing.T) {

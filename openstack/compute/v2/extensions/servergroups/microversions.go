@@ -1,6 +1,6 @@
 package servergroups
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/phouverneyuff/gophercloud"
 
 // ExtractPolicy will extract the policy attribute.
 // This requires the client to be set to microversion 2.64 or later.

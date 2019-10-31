@@ -1,6 +1,6 @@
 package networkipavailabilities
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/phouverneyuff/gophercloud"
 
 const resourcePath = "network-ip-availabilities"
 
